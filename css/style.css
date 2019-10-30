@@ -1,0 +1,53 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,300i,400,400i,500,500i,600,600i&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 170px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.navlist {
+   padding-left: 0;
+}
+
+.navlist li
+{
+    display: inline; /* brings nav elements up next to each other */
+    list-style-type: none; /* removes the bullet points */
+    padding-right: 20px; /* spaces them out from each other. Adjust to suit your needs */
+}
+
+a {
+	text-decoration: none;
+	color: burlywood;
+}
+
+a:visited{
+	color: chocolate;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
+}
+
+.ss_title {
+	margin-bottom: 0;
+}
+
+
+
+.ss_title {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.ss_content {
+	font-weight: 300;
+}
